@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="10"
+    tools:context=".Login">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:gravity="center"
+
+        android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name ..."
+        android:id="@+id/name"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password ..."
+        android:id="@+id/pass"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Email ..."/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/regB"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></View>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Users"
+        android:id="@+id/showB"/>
+</LinearLayout>
+
+
+
+</LinearLayout>
